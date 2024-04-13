@@ -22,3 +22,4 @@ There are currently no plans to publish this extension to the Google Web Store.
 ## Changelog
 
 - v1.0 [2024-04-13]: The first version
+	- v1.1 [2024-04-13]: Minor tweak to remove debugging log
