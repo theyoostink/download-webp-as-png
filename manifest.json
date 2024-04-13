@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "Download WebP as PNG",
+	"description": "An extension that provides a context menu option to download a WebP as a PNG image file.",
+	"version": "1.0",
+	"permissions": ["contextMenus"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["content.js"]
+	}]
+}
